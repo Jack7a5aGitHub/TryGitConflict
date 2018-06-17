@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>animals</key>
+	<array>
+		<dict>
+			<key>text</key>
+			<string>This is a cat</string>
+			<key>imageName</key>
+			<string>cat.jpg</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>Deer</string>
+			<key>imageName</key>
+			<string>deer.jpg</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>gggggggggggggggggggggggggggggg</string>
+			<key>imageName</key>
+			<string>gorila.jpg</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>lionlionlionlion</string>
+			<key>imageName</key>
+			<string>lion.jpg</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>owlllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllowlllllllllllllllllllllowlllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllowlllllllllllllllllllll</string>
+			<key>imageName</key>
+			<string>owl.jpg</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>I am a panda</string>
+			<key>imageName</key>
+			<string>panda.jpg</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>tiger</string>
+			<key>imageName</key>
+			<string>tiger.jpg</string>
+		</dict>
+	</array>
+</dict>
+</plist>

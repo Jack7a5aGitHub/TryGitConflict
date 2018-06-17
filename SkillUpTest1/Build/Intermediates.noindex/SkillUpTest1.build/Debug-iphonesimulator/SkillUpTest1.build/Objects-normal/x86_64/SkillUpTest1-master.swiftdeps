@@ -1,0 +1,14 @@
+version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
+options: "205942a1e286451bc568585cc32ef86e"
+build_time: [1527496441, 132999000]
+inputs:
+  "/Users/jackwong/Desktop/Developer/SkillUpTest1/SkillUpTest1/View/PinterestLayout.swift": [1526889735, 0]
+  "/Users/jackwong/Desktop/Developer/SkillUpTest1/SkillUpTest1/Model/Animals.swift": [1526891716, 0]
+  "/Users/jackwong/Desktop/Developer/SkillUpTest1/SkillUpTest1/AppDelegate.swift": [1527496059, 0]
+  "/Users/jackwong/Desktop/Developer/SkillUpTest1/SkillUpTest1/View/CustomCollectionViewCell.swift": [1526892939, 0]
+  "/Users/jackwong/Desktop/Developer/SkillUpTest1/SkillUpTest1/View/CollectionProvider.swift": [1526887432, 0]
+  "/Users/jackwong/Desktop/Developer/SkillUpTest1/SkillUpTest1/Extension/UIStoryboard+Instance.swift": [1527053093, 0]
+  "/Users/jackwong/Desktop/Developer/SkillUpTest1/SkillUpTest1/Controller/PinterestViewController.swift": [1527496428, 0]
+  "/Users/jackwong/Desktop/Developer/SkillUpTest1/SkillUpTest1/View/CustomTransition.swift": [1527228188, 0]
+  "/Users/jackwong/Desktop/Developer/ANALoginSample/ANALoginSample/NSObject+ClassName.swift": [1527044517, 0]
+  "/Users/jackwong/Desktop/Developer/SkillUpTest1/SkillUpTest1/Controller/PreviewViewController.swift": [1527227423, 0]

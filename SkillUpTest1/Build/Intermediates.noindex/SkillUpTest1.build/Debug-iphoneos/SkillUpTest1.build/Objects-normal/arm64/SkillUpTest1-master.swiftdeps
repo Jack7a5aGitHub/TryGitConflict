@@ -1,0 +1,10 @@
+version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
+options: "9cf26f1a3792f534ee16943d393c744d"
+build_time: [1526884906, 150751000]
+inputs:
+  "/Users/jackwong/Desktop/Developer/SkillUpTest1/SkillUpTest1/View/PinterestLayout.swift": [1526872079, 0]
+  "/Users/jackwong/Desktop/Developer/SkillUpTest1/SkillUpTest1/Model/Animals.swift": [1526357155, 0]
+  "/Users/jackwong/Desktop/Developer/SkillUpTest1/SkillUpTest1/AppDelegate.swift": [1526133331, 0]
+  "/Users/jackwong/Desktop/Developer/SkillUpTest1/SkillUpTest1/View/CustomCollectionViewCell.swift": [1526485853, 0]
+  "/Users/jackwong/Desktop/Developer/SkillUpTest1/SkillUpTest1/View/CollectionProvider.swift": [1526485712, 0]
+  "/Users/jackwong/Desktop/Developer/SkillUpTest1/SkillUpTest1/Controller/PinterestViewController.swift": [1526485620, 0]

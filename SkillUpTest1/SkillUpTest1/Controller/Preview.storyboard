@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Preview View Controller-->
+        <scene sceneID="y6X-vp-BLI">
+            <objects>
+                <viewController storyboardIdentifier="preview" id="eJn-NM-WlV" customClass="PreviewViewController" customModule="SkillUpTest1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ur6-ti-wpp">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="4hT-Gz-nNH">
+                                <rect key="frame" x="0.0" y="20" width="375" height="495"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tk7-yN-oKt">
+                                <rect key="frame" x="138" y="578" width="99" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="閉じる"/>
+                                <connections>
+                                    <action selector="closeAction:" destination="eJn-NM-WlV" eventType="touchUpInside" id="NtU-ig-Xeq"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="4hT-Gz-nNH" firstAttribute="top" secondItem="kV0-gj-9Cl" secondAttribute="top" id="0Je-sW-waF"/>
+                            <constraint firstItem="kV0-gj-9Cl" firstAttribute="bottom" secondItem="tk7-yN-oKt" secondAttribute="bottom" constant="53" id="AZ7-Qn-zjR"/>
+                            <constraint firstItem="4hT-Gz-nNH" firstAttribute="trailing" secondItem="kV0-gj-9Cl" secondAttribute="trailing" id="cEK-9N-mnj"/>
+                            <constraint firstItem="tk7-yN-oKt" firstAttribute="top" secondItem="4hT-Gz-nNH" secondAttribute="bottom" constant="63" id="kM0-Aj-PgN"/>
+                            <constraint firstItem="4hT-Gz-nNH" firstAttribute="leading" secondItem="kV0-gj-9Cl" secondAttribute="leading" id="tcD-w7-W1E"/>
+                            <constraint firstItem="tk7-yN-oKt" firstAttribute="leading" secondItem="kV0-gj-9Cl" secondAttribute="leading" constant="138" id="unh-gf-DAp"/>
+                            <constraint firstItem="kV0-gj-9Cl" firstAttribute="trailing" secondItem="tk7-yN-oKt" secondAttribute="trailing" constant="138" id="zoT-Bd-eul"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="kV0-gj-9Cl"/>
+                    </view>
+                    <connections>
+                        <outlet property="selectedImgView" destination="4hT-Gz-nNH" id="aHD-oR-5Sj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="heQ-gZ-3ez" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="429.60000000000002" y="-185.75712143928038"/>
+        </scene>
+    </scenes>
+</document>
