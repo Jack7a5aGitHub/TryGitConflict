@@ -1,5 +1,9 @@
 version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
 options: "3d1abaa191a80d2a95148faa5ea03c01"
+<<<<<<< HEAD
 build_time: [1529287402, 698571000]
+=======
+build_time: [1529289057, 641436000]
+>>>>>>> features/basic3
 inputs:
   "/Users/jackwong/TryGitConflict/AR_JellyFish/Pods/Each/Sources/Each.swift": [1529286648, 0]

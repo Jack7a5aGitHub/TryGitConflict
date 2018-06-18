@@ -1,6 +1,10 @@
 version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
 options: "d9171913ea7f0ae37d471f7f32a9f4b9"
+<<<<<<< HEAD
 build_time: [1529287414, 719992000]
+=======
+build_time: [1529289062, 392246000]
+>>>>>>> features/basic3
 inputs:
   "/Users/jackwong/TryGitConflict/AR_JellyFish/AR_JellyFish/ViewController.swift": [1529286644, 0]
   "/Users/jackwong/TryGitConflict/AR_JellyFish/AR_JellyFish/AppDelegate.swift": [1529286644, 0]

@@ -24,10 +24,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         setupConfiguration()
         setupTapGestureRegonizer()
-    }
-    
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
+        // I am basic 3 ar. How are you doing dude!? 
     }
     
     @IBAction func didTapPlay(_ sender: Any) {
