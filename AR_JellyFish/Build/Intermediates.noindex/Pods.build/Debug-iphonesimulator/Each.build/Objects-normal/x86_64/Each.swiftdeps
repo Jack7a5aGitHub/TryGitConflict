@@ -1,0 +1,254 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PerformClosure"
+- "NextStep"
+- "Each"
+provides-nominal:
+- "4Each8NextStepO"
+- "4EachAAC"
+- "4EachAAC21SecondsMultiplierTypeO"
+provides-member:
+- ["4Each8NextStepO", ""]
+- ["4EachAAC", ""]
+- ["4EachAAC21SecondsMultiplierTypeO", ""]
+provides-dynamic-lookup:
+- "_trigger"
+depends-top-level:
+- !private "!="
+- !private "&&"
+- !private "*"
+- !private "/"
+- "=="
+- !private "??"
+- "AnyObject"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "Double"
+- "Each"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "NextStep"
+- "PerformClosure"
+- "Selector"
+- !private "StringLiteralType"
+- "TimeInterval"
+- "Timer"
+- !private "fatalError"
+depends-member:
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "invalidate"]
+- !private ["s7CVarArgP", "scheduledTimer"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "invalidate"]
+- !private ["s28CustomDebugStringConvertibleP", "scheduledTimer"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s17CustomReflectableP", "Each"]
+- !private ["s17CustomReflectableP", "Triggered"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "init"]
+- ["s23CustomStringConvertibleP", "Each"]
+- !private ["s23CustomStringConvertibleP", "Triggered"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "invalidate"]
+- !private ["s23CustomStringConvertibleP", "scheduledTimer"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "init"]
+- ["4EachAAC", "AnyObject"]
+- ["4EachAAC", "Double"]
+- ["4EachAAC", "Each"]
+- ["4EachAAC", "PerformClosure"]
+- ["4EachAAC", "SecondsMultiplierType"]
+- ["4EachAAC", "TimeInterval"]
+- ["4EachAAC", "Timer"]
+- !private ["4EachAAC", "_checkOwner"]
+- !private ["4EachAAC", "_makeEachWith"]
+- !private ["4EachAAC", "_multiplier"]
+- !private ["4EachAAC", "_owner"]
+- !private ["4EachAAC", "_performClosure"]
+- !private ["4EachAAC", "_timer"]
+- ["4EachAAC", "_trigger"]
+- !private ["4EachAAC", "_value"]
+- ["4EachAAC", "deinit"]
+- !private ["4EachAAC", "fatalError"]
+- ["4EachAAC", "hours"]
+- !private ["4EachAAC", "hours.storage"]
+- ["4EachAAC", "init"]
+- ["4EachAAC", "isStopped"]
+- ["4EachAAC", "milliseconds"]
+- !private ["4EachAAC", "milliseconds.storage"]
+- ["4EachAAC", "minutes"]
+- !private ["4EachAAC", "minutes.storage"]
+- ["4EachAAC", "perform"]
+- ["4EachAAC", "restart"]
+- ["4EachAAC", "seconds"]
+- !private ["4EachAAC", "seconds.storage"]
+- ["4EachAAC", "stop"]
+- ["4EachAAC", "timeInterval"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "init"]
+- ["s9EquatableP", "Each"]
+- !private ["s9EquatableP", "Triggered"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- ["s9EquatableP", "continue"]
+- ["s9EquatableP", "hashValue"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "invalidate"]
+- !private ["s9EquatableP", "scheduledTimer"]
+- !private ["s9EquatableP", "shouldStop"]
+- ["s9EquatableP", "stop"]
+- ["s9EquatableP", "toHours"]
+- ["s9EquatableP", "toMilliseconds"]
+- ["s9EquatableP", "toMinutes"]
+- ["s9EquatableP", "toSeconds"]
+- !private ["s9EquatableP", "value"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "Each"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "Triggered"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "Each"]
+- !private ["s26ExpressibleByStringLiteralP", "Triggered"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "Each"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "Triggered"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s8HashableP", "Each"]
+- !private ["s8HashableP", "Triggered"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- ["s8HashableP", "continue"]
+- ["s8HashableP", "hashValue"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "invalidate"]
+- !private ["s8HashableP", "scheduledTimer"]
+- !private ["s8HashableP", "shouldStop"]
+- ["s8HashableP", "stop"]
+- ["s8HashableP", "toHours"]
+- ["s8HashableP", "toMilliseconds"]
+- ["s8HashableP", "toMinutes"]
+- ["s8HashableP", "toSeconds"]
+- !private ["s8HashableP", "value"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSObjectC", "invalidate"]
+- !private ["So8NSObjectC", "scheduledTimer"]
+- !private ["So16NSObjectProtocolP", "invalidate"]
+- !private ["So16NSObjectProtocolP", "scheduledTimer"]
+- ["4Each8NextStepO", "Bool"]
+- ["4Each8NextStepO", "__derived_enum_equals"]
+- ["4Each8NextStepO", "continue"]
+- ["4Each8NextStepO", "deinit"]
+- ["4Each8NextStepO", "hashValue"]
+- !private ["4Each8NextStepO", "shouldStop"]
+- ["4Each8NextStepO", "stop"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- ["4EachAAC21SecondsMultiplierTypeO", "Double"]
+- ["4EachAAC21SecondsMultiplierTypeO", "__derived_enum_equals"]
+- ["4EachAAC21SecondsMultiplierTypeO", "deinit"]
+- ["4EachAAC21SecondsMultiplierTypeO", "hashValue"]
+- ["4EachAAC21SecondsMultiplierTypeO", "toHours"]
+- ["4EachAAC21SecondsMultiplierTypeO", "toMilliseconds"]
+- ["4EachAAC21SecondsMultiplierTypeO", "toMinutes"]
+- ["4EachAAC21SecondsMultiplierTypeO", "toSeconds"]
+- ["4EachAAC21SecondsMultiplierTypeO", "value"]
+- ["10ObjectiveC8SelectorV", "Each"]
+- !private ["10ObjectiveC8SelectorV", "Triggered"]
+- !private ["s8SequenceP", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So5TimerC", "invalidate"]
+- !private ["So5TimerC", "scheduledTimer"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "invalidate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "scheduledTimer"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- !private "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- "4EachAAC"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- "4Each8NextStepO"
+- !private "s26RangeReplaceableCollectionP"
+- "4EachAAC21SecondsMultiplierTypeO"
+- "10ObjectiveC8SelectorV"
+- !private "s8SequenceP"
+- !private "s12StaticStringV"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So5TimerC"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/jackwong/Desktop/Developer/AR_JellyFish/Pods/Target Support Files/Each/Each-umbrella.h"
+- "/Users/jackwong/Desktop/Developer/AR_JellyFish/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Each.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "b4aac41d28d3eedcfbaf05701a0c106e"
