@@ -1,0 +1,20 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'AR_JellyFish' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for AR_JellyFish
+	pod 'Each', '~> 1.2'
+  target 'AR_JellyFishTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'AR_JellyFishUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

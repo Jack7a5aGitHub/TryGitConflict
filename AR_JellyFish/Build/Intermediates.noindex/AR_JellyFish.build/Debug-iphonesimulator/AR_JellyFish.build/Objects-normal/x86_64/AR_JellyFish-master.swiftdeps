@@ -1,0 +1,6 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "0f04019d9b05ec721f0d9f0bfae57fce"
+build_time: [1530507289, 78634000]
+inputs:
+  "/Users/jackwong/TryGitConflict/AR_JellyFish/AR_JellyFish/ViewController.swift": [1530507273, 0]
+  "/Users/jackwong/TryGitConflict/AR_JellyFish/AR_JellyFish/AppDelegate.swift": [1529286644, 0]

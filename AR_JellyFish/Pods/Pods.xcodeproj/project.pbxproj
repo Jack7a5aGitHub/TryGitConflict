@@ -1,0 +1,908 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DB973FE9F6AF8D7BC5B8ED0743EB657 /* Pods-AR_JellyFish-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A6AEBDD17879557748BEDC5B0791C8C9 /* Pods-AR_JellyFish-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		281AC0097AB0852C6AAE5F3FE2064407 /* Pods-AR_JellyFishTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D3299CDF62459795D8574A619D4166E /* Pods-AR_JellyFishTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		338B35F27BD693B46614A70C9AC343D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		4644BAB6540155A6A1F89BF6126BBB45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		474346F8329D8FA896840475B97F9D38 /* Each-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DC77377115D0C427410BDE60E5315E /* Each-dummy.m */; };
+		4F73DBCCA1AB7ADAE15583C568B06CC8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		81B12A938728A3C4B72EE8BBF873E6DB /* Pods-AR_JellyFishUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 973656DA8AFA4B9F80C567D7C8DE8BE4 /* Pods-AR_JellyFishUITests-dummy.m */; };
+		98B5F08EDF040810F81898006014CEA2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		9AA72B5D3ABE134B587E47F81946A443 /* Each-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 18179AC8819190AB6E4D039A87174A1D /* Each-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A59123F7E20F6F7C6311F7B2336F8414 /* Each.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF99B90B4BBBDAC7744431A842BA82E /* Each.swift */; };
+		D0A3C969F8FDAC9B6648B29920D49936 /* Pods-AR_JellyFishUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 648F1AE43279C3875D554DFB2008BBC7 /* Pods-AR_JellyFishUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF5B759D51245F82CB348F62FB97CC65 /* Pods-AR_JellyFishTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E51DC6DAF4EF47EDD9C71FE33ED1BB65 /* Pods-AR_JellyFishTests-dummy.m */; };
+		F901209D763BFBF89698BB592FDDA183 /* Pods-AR_JellyFish-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2B8E36C0D612B6E89721DC252F1651 /* Pods-AR_JellyFish-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5E6500EC887A4185BB581F611476E883 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCCFB470D9636263A3ABB2C69E628585;
+			remoteInfo = Each;
+		};
+		B90D34F73D4857387C3575D40E3B8504 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 674D35670766D043C3ADED701C5DB508;
+			remoteInfo = "Pods-AR_JellyFish";
+		};
+		ED06BB796CBC7E124091E0AB516A0683 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 674D35670766D043C3ADED701C5DB508;
+			remoteInfo = "Pods-AR_JellyFish";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0372530F101CA6F9EDA5F5DCCE23768F /* Pods-AR_JellyFishTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AR_JellyFishTests-frameworks.sh"; sourceTree = "<group>"; };
+		07D752940D8056B6B37E48D81201C7AD /* Pods_AR_JellyFishUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AR_JellyFishUITests.framework; path = "Pods-AR_JellyFishUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18179AC8819190AB6E4D039A87174A1D /* Each-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Each-umbrella.h"; sourceTree = "<group>"; };
+		1BDCB83929EFA336D5ECA13F37618D82 /* Pods-AR_JellyFish.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AR_JellyFish.release.xcconfig"; sourceTree = "<group>"; };
+		1F22641F13D0A74E82D816B6C24F8883 /* Pods-AR_JellyFishUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AR_JellyFishUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1F2B8E36C0D612B6E89721DC252F1651 /* Pods-AR_JellyFish-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AR_JellyFish-dummy.m"; sourceTree = "<group>"; };
+		2031C295C13719514B6FDB6BAF0A56E2 /* Pods-AR_JellyFishUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AR_JellyFishUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		23C8D7406E33412804D039A68B457BF7 /* Pods-AR_JellyFishTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AR_JellyFishTests.modulemap"; sourceTree = "<group>"; };
+		2DF8124997D2AF3E7034FD4A8443BF8B /* Pods-AR_JellyFish-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AR_JellyFish-acknowledgements.markdown"; sourceTree = "<group>"; };
+		37DC77377115D0C427410BDE60E5315E /* Each-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Each-dummy.m"; sourceTree = "<group>"; };
+		3C59FD3C4FBD3F0D928B3CDFD19D0DCD /* Pods_AR_JellyFish.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AR_JellyFish.framework; path = "Pods-AR_JellyFish.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C5D0929C86000C0C237FF6F67FB11F4 /* Pods-AR_JellyFishUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AR_JellyFishUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		48C9D1EE676508FFE93CF92F7E9E5439 /* Each-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Each-prefix.pch"; sourceTree = "<group>"; };
+		4DA25FFA30A2920195F769793CB8D2D9 /* Pods-AR_JellyFishUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AR_JellyFishUITests.modulemap"; sourceTree = "<group>"; };
+		5399249B6BB765860D09B61553AC3EEA /* Pods_AR_JellyFishTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AR_JellyFishTests.framework; path = "Pods-AR_JellyFishTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		60818383ED6C934E37E56968734B4493 /* Pods-AR_JellyFish.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AR_JellyFish.debug.xcconfig"; sourceTree = "<group>"; };
+		648F1AE43279C3875D554DFB2008BBC7 /* Pods-AR_JellyFishUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AR_JellyFishUITests-umbrella.h"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		76073268E73E553AE80BD32AAD95DC9C /* Pods-AR_JellyFishTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AR_JellyFishTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7D3299CDF62459795D8574A619D4166E /* Pods-AR_JellyFishTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AR_JellyFishTests-umbrella.h"; sourceTree = "<group>"; };
+		7DC76D75565CC3B914E0C7A35A1D3D7C /* Pods-AR_JellyFish.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AR_JellyFish.modulemap"; sourceTree = "<group>"; };
+		89B0FE1547105572BA370ED3FA4D5A77 /* Pods-AR_JellyFish-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AR_JellyFish-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9559882807155A48EA41735EDF4EC78A /* Each.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Each.modulemap; sourceTree = "<group>"; };
+		95693921DF7A3B3A6B6E62D5CA0595C7 /* Pods-AR_JellyFishTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AR_JellyFishTests.release.xcconfig"; sourceTree = "<group>"; };
+		9610EDE3B7E601BB90018E796CC827BF /* Pods-AR_JellyFish-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AR_JellyFish-frameworks.sh"; sourceTree = "<group>"; };
+		973656DA8AFA4B9F80C567D7C8DE8BE4 /* Pods-AR_JellyFishUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AR_JellyFishUITests-dummy.m"; sourceTree = "<group>"; };
+		A15D93305230765F3F811A96E24C4F3B /* Pods-AR_JellyFishTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AR_JellyFishTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A6AEBDD17879557748BEDC5B0791C8C9 /* Pods-AR_JellyFish-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AR_JellyFish-umbrella.h"; sourceTree = "<group>"; };
+		AE709665CB9683FA4B4AC88098B6B32A /* Each.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Each.framework; path = Each.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD2D6D72AC051AA10052B0805ADDA4CB /* Pods-AR_JellyFishTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AR_JellyFishTests-resources.sh"; sourceTree = "<group>"; };
+		BFA851AA899C0ED9DA8F2F4A4DC64862 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC69C832BF39244941C7083EC0BB9AC1 /* Each.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Each.xcconfig; sourceTree = "<group>"; };
+		CF51F022B756B93038B8522B612989C1 /* Pods-AR_JellyFishUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AR_JellyFishUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D0F9F3ED81116B8433ABDA4A5844E074 /* Pods-AR_JellyFishTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AR_JellyFishTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D6F44D65AFA9650370E4F503B4C4F7F6 /* Pods-AR_JellyFish-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AR_JellyFish-resources.sh"; sourceTree = "<group>"; };
+		E51DC6DAF4EF47EDD9C71FE33ED1BB65 /* Pods-AR_JellyFishTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AR_JellyFishTests-dummy.m"; sourceTree = "<group>"; };
+		E53A6D4D6B3E189155AD88C7F38096AB /* Pods-AR_JellyFishUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AR_JellyFishUITests-frameworks.sh"; sourceTree = "<group>"; };
+		E95E4D5330A2E06EDC07C4C788C842A6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBF99B90B4BBBDAC7744431A842BA82E /* Each.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Each.swift; path = Sources/Each.swift; sourceTree = "<group>"; };
+		F4A116FAD91497F684BA2C2294BBA911 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F834F9A5E025EB9662E87E69BEDB5904 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCBF155B20ECE27A43E820FDF1C35392 /* Pods-AR_JellyFishUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AR_JellyFishUITests-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		73452F502BDDE411239FC512A8CC4C9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4644BAB6540155A6A1F89BF6126BBB45 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79DFE8C6825B6339A47616200DBAF35E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F73DBCCA1AB7ADAE15583C568B06CC8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97E80A0124A29FF279A4FA085FFF0610 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				338B35F27BD693B46614A70C9AC343D2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE40902FFEC6D5E450E166B0BE375A44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98B5F08EDF040810F81898006014CEA2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F8CD734BADC1D8BF83EA475B38AD3DF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DECCD3FB7192E991532BC3748F83E4E8 /* Pods-AR_JellyFish */,
+				A1021E6E5507B250CCE8735061655A9D /* Pods-AR_JellyFishTests */,
+				8711118CE2E4AF61B03A502A2AEDE229 /* Pods-AR_JellyFishUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				A18461AD0A9E4F5AEF0827053AF8EE28 /* Pods */,
+				CFEED9F08CAF078FFB95DE461449D2B6 /* Products */,
+				6F8CD734BADC1D8BF83EA475B38AD3DF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8711118CE2E4AF61B03A502A2AEDE229 /* Pods-AR_JellyFishUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BFA851AA899C0ED9DA8F2F4A4DC64862 /* Info.plist */,
+				4DA25FFA30A2920195F769793CB8D2D9 /* Pods-AR_JellyFishUITests.modulemap */,
+				CF51F022B756B93038B8522B612989C1 /* Pods-AR_JellyFishUITests-acknowledgements.markdown */,
+				3C5D0929C86000C0C237FF6F67FB11F4 /* Pods-AR_JellyFishUITests-acknowledgements.plist */,
+				973656DA8AFA4B9F80C567D7C8DE8BE4 /* Pods-AR_JellyFishUITests-dummy.m */,
+				E53A6D4D6B3E189155AD88C7F38096AB /* Pods-AR_JellyFishUITests-frameworks.sh */,
+				FCBF155B20ECE27A43E820FDF1C35392 /* Pods-AR_JellyFishUITests-resources.sh */,
+				648F1AE43279C3875D554DFB2008BBC7 /* Pods-AR_JellyFishUITests-umbrella.h */,
+				2031C295C13719514B6FDB6BAF0A56E2 /* Pods-AR_JellyFishUITests.debug.xcconfig */,
+				1F22641F13D0A74E82D816B6C24F8883 /* Pods-AR_JellyFishUITests.release.xcconfig */,
+			);
+			name = "Pods-AR_JellyFishUITests";
+			path = "Target Support Files/Pods-AR_JellyFishUITests";
+			sourceTree = "<group>";
+		};
+		9DD223C812552B985AC777604F887312 /* Each */ = {
+			isa = PBXGroup;
+			children = (
+				EBF99B90B4BBBDAC7744431A842BA82E /* Each.swift */,
+				E26EC9BA0D40C184DA63B46621A36575 /* Support Files */,
+			);
+			name = Each;
+			path = Each;
+			sourceTree = "<group>";
+		};
+		A1021E6E5507B250CCE8735061655A9D /* Pods-AR_JellyFishTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4A116FAD91497F684BA2C2294BBA911 /* Info.plist */,
+				23C8D7406E33412804D039A68B457BF7 /* Pods-AR_JellyFishTests.modulemap */,
+				A15D93305230765F3F811A96E24C4F3B /* Pods-AR_JellyFishTests-acknowledgements.markdown */,
+				D0F9F3ED81116B8433ABDA4A5844E074 /* Pods-AR_JellyFishTests-acknowledgements.plist */,
+				E51DC6DAF4EF47EDD9C71FE33ED1BB65 /* Pods-AR_JellyFishTests-dummy.m */,
+				0372530F101CA6F9EDA5F5DCCE23768F /* Pods-AR_JellyFishTests-frameworks.sh */,
+				BD2D6D72AC051AA10052B0805ADDA4CB /* Pods-AR_JellyFishTests-resources.sh */,
+				7D3299CDF62459795D8574A619D4166E /* Pods-AR_JellyFishTests-umbrella.h */,
+				76073268E73E553AE80BD32AAD95DC9C /* Pods-AR_JellyFishTests.debug.xcconfig */,
+				95693921DF7A3B3A6B6E62D5CA0595C7 /* Pods-AR_JellyFishTests.release.xcconfig */,
+			);
+			name = "Pods-AR_JellyFishTests";
+			path = "Target Support Files/Pods-AR_JellyFishTests";
+			sourceTree = "<group>";
+		};
+		A18461AD0A9E4F5AEF0827053AF8EE28 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9DD223C812552B985AC777604F887312 /* Each */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CFEED9F08CAF078FFB95DE461449D2B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE709665CB9683FA4B4AC88098B6B32A /* Each.framework */,
+				3C59FD3C4FBD3F0D928B3CDFD19D0DCD /* Pods_AR_JellyFish.framework */,
+				5399249B6BB765860D09B61553AC3EEA /* Pods_AR_JellyFishTests.framework */,
+				07D752940D8056B6B37E48D81201C7AD /* Pods_AR_JellyFishUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DECCD3FB7192E991532BC3748F83E4E8 /* Pods-AR_JellyFish */ = {
+			isa = PBXGroup;
+			children = (
+				F834F9A5E025EB9662E87E69BEDB5904 /* Info.plist */,
+				7DC76D75565CC3B914E0C7A35A1D3D7C /* Pods-AR_JellyFish.modulemap */,
+				2DF8124997D2AF3E7034FD4A8443BF8B /* Pods-AR_JellyFish-acknowledgements.markdown */,
+				89B0FE1547105572BA370ED3FA4D5A77 /* Pods-AR_JellyFish-acknowledgements.plist */,
+				1F2B8E36C0D612B6E89721DC252F1651 /* Pods-AR_JellyFish-dummy.m */,
+				9610EDE3B7E601BB90018E796CC827BF /* Pods-AR_JellyFish-frameworks.sh */,
+				D6F44D65AFA9650370E4F503B4C4F7F6 /* Pods-AR_JellyFish-resources.sh */,
+				A6AEBDD17879557748BEDC5B0791C8C9 /* Pods-AR_JellyFish-umbrella.h */,
+				60818383ED6C934E37E56968734B4493 /* Pods-AR_JellyFish.debug.xcconfig */,
+				1BDCB83929EFA336D5ECA13F37618D82 /* Pods-AR_JellyFish.release.xcconfig */,
+			);
+			name = "Pods-AR_JellyFish";
+			path = "Target Support Files/Pods-AR_JellyFish";
+			sourceTree = "<group>";
+		};
+		E26EC9BA0D40C184DA63B46621A36575 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9559882807155A48EA41735EDF4EC78A /* Each.modulemap */,
+				CC69C832BF39244941C7083EC0BB9AC1 /* Each.xcconfig */,
+				37DC77377115D0C427410BDE60E5315E /* Each-dummy.m */,
+				48C9D1EE676508FFE93CF92F7E9E5439 /* Each-prefix.pch */,
+				18179AC8819190AB6E4D039A87174A1D /* Each-umbrella.h */,
+				E95E4D5330A2E06EDC07C4C788C842A6 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Each";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		31EF75593EECC9E62E85AD12750F1249 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0A3C969F8FDAC9B6648B29920D49936 /* Pods-AR_JellyFishUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E0370D07370034FEC7223D0F1E37ACF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DB973FE9F6AF8D7BC5B8ED0743EB657 /* Pods-AR_JellyFish-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		855EC7AB2730BD4237A31B95B86239B2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				281AC0097AB0852C6AAE5F3FE2064407 /* Pods-AR_JellyFishTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2E998592A36735A0B9E037D4B6351B2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AA72B5D3ABE134B587E47F81946A443 /* Each-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		674D35670766D043C3ADED701C5DB508 /* Pods-AR_JellyFish */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD7BF5B5ADFF2E5464191CBBFB31FBBB /* Build configuration list for PBXNativeTarget "Pods-AR_JellyFish" */;
+			buildPhases = (
+				793AFE08243B9D7C3829447996E9C4EE /* Sources */,
+				73452F502BDDE411239FC512A8CC4C9C /* Frameworks */,
+				6E0370D07370034FEC7223D0F1E37ACF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A99B43E59147ECED812D974BB5F00D0 /* PBXTargetDependency */,
+			);
+			name = "Pods-AR_JellyFish";
+			productName = "Pods-AR_JellyFish";
+			productReference = 3C59FD3C4FBD3F0D928B3CDFD19D0DCD /* Pods_AR_JellyFish.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8754A5545B8F8705AE0B11AAB31AE639 /* Pods-AR_JellyFishTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E57043513B6B15237E62E070EFCCB8C /* Build configuration list for PBXNativeTarget "Pods-AR_JellyFishTests" */;
+			buildPhases = (
+				AF38FCC8DDE500FA8DF7D75C4D3C76FB /* Sources */,
+				97E80A0124A29FF279A4FA085FFF0610 /* Frameworks */,
+				855EC7AB2730BD4237A31B95B86239B2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9189587907B47A1F5413E4799E0DE1D /* PBXTargetDependency */,
+			);
+			name = "Pods-AR_JellyFishTests";
+			productName = "Pods-AR_JellyFishTests";
+			productReference = 5399249B6BB765860D09B61553AC3EEA /* Pods_AR_JellyFishTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FCCFB470D9636263A3ABB2C69E628585 /* Each */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC5841543C39D8CB0D97356B4B419403 /* Build configuration list for PBXNativeTarget "Each" */;
+			buildPhases = (
+				B51A2F8A38E123D549ABC7C3A1FA8562 /* Sources */,
+				79DFE8C6825B6339A47616200DBAF35E /* Frameworks */,
+				F2E998592A36735A0B9E037D4B6351B2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Each;
+			productName = Each;
+			productReference = AE709665CB9683FA4B4AC88098B6B32A /* Each.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FF334A61024B15DC5B85CDDBA022D246 /* Pods-AR_JellyFishUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD6278435D0D922C4C737B5D3DC5A716 /* Build configuration list for PBXNativeTarget "Pods-AR_JellyFishUITests" */;
+			buildPhases = (
+				3C95C1D8A0EAFFAB5D2FA5E971789CEB /* Sources */,
+				DE40902FFEC6D5E450E166B0BE375A44 /* Frameworks */,
+				31EF75593EECC9E62E85AD12750F1249 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EF4B99B2D36C6D4118750FF7D0BBBE1 /* PBXTargetDependency */,
+			);
+			name = "Pods-AR_JellyFishUITests";
+			productName = "Pods-AR_JellyFishUITests";
+			productReference = 07D752940D8056B6B37E48D81201C7AD /* Pods_AR_JellyFishUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CFEED9F08CAF078FFB95DE461449D2B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCCFB470D9636263A3ABB2C69E628585 /* Each */,
+				674D35670766D043C3ADED701C5DB508 /* Pods-AR_JellyFish */,
+				8754A5545B8F8705AE0B11AAB31AE639 /* Pods-AR_JellyFishTests */,
+				FF334A61024B15DC5B85CDDBA022D246 /* Pods-AR_JellyFishUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C95C1D8A0EAFFAB5D2FA5E971789CEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81B12A938728A3C4B72EE8BBF873E6DB /* Pods-AR_JellyFishUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		793AFE08243B9D7C3829447996E9C4EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F901209D763BFBF89698BB592FDDA183 /* Pods-AR_JellyFish-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF38FCC8DDE500FA8DF7D75C4D3C76FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF5B759D51245F82CB348F62FB97CC65 /* Pods-AR_JellyFishTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B51A2F8A38E123D549ABC7C3A1FA8562 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				474346F8329D8FA896840475B97F9D38 /* Each-dummy.m in Sources */,
+				A59123F7E20F6F7C6311F7B2336F8414 /* Each.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A99B43E59147ECED812D974BB5F00D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Each;
+			target = FCCFB470D9636263A3ABB2C69E628585 /* Each */;
+			targetProxy = 5E6500EC887A4185BB581F611476E883 /* PBXContainerItemProxy */;
+		};
+		5EF4B99B2D36C6D4118750FF7D0BBBE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-AR_JellyFish";
+			target = 674D35670766D043C3ADED701C5DB508 /* Pods-AR_JellyFish */;
+			targetProxy = ED06BB796CBC7E124091E0AB516A0683 /* PBXContainerItemProxy */;
+		};
+		C9189587907B47A1F5413E4799E0DE1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-AR_JellyFish";
+			target = 674D35670766D043C3ADED701C5DB508 /* Pods-AR_JellyFish */;
+			targetProxy = B90D34F73D4857387C3575D40E3B8504 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4D649F1BA15319F659EBA498A3352CEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BDCB83929EFA336D5ECA13F37618D82 /* Pods-AR_JellyFish.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AR_JellyFish/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AR_JellyFish/Pods-AR_JellyFish.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		691EE0234A3BA1A3B057D3A4C23C9CCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		69B27AAA9519D842C5CBB0E02997A99E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95693921DF7A3B3A6B6E62D5CA0595C7 /* Pods-AR_JellyFishTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AR_JellyFishTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AR_JellyFishTests/Pods-AR_JellyFishTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		703082A85162812D3B777E668767AD25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A31E21F76D07C0FA4F3B35D987914D7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2031C295C13719514B6FDB6BAF0A56E2 /* Pods-AR_JellyFishUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AR_JellyFishUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AR_JellyFishUITests/Pods-AR_JellyFishUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AD59B88E3C8C5FC65979AA41317CA9EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60818383ED6C934E37E56968734B4493 /* Pods-AR_JellyFish.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AR_JellyFish/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AR_JellyFish/Pods-AR_JellyFish.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CF1880EA20D44BBC2415765039181001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC69C832BF39244941C7083EC0BB9AC1 /* Each.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Each/Each-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Each/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Each/Each.modulemap";
+				PRODUCT_MODULE_NAME = Each;
+				PRODUCT_NAME = Each;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DE60EC691048CB0CA08999C1FB13CBFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76073268E73E553AE80BD32AAD95DC9C /* Pods-AR_JellyFishTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AR_JellyFishTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AR_JellyFishTests/Pods-AR_JellyFishTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E36D35E449E66BBDB1AD55001783CD40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC69C832BF39244941C7083EC0BB9AC1 /* Each.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Each/Each-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Each/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Each/Each.modulemap";
+				PRODUCT_MODULE_NAME = Each;
+				PRODUCT_NAME = Each;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FE9ED665B3B13F097993DCAA4A498983 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F22641F13D0A74E82D816B6C24F8883 /* Pods-AR_JellyFishUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AR_JellyFishUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AR_JellyFishUITests/Pods-AR_JellyFishUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				691EE0234A3BA1A3B057D3A4C23C9CCC /* Debug */,
+				703082A85162812D3B777E668767AD25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E57043513B6B15237E62E070EFCCB8C /* Build configuration list for PBXNativeTarget "Pods-AR_JellyFishTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE60EC691048CB0CA08999C1FB13CBFA /* Debug */,
+				69B27AAA9519D842C5CBB0E02997A99E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC5841543C39D8CB0D97356B4B419403 /* Build configuration list for PBXNativeTarget "Each" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E36D35E449E66BBDB1AD55001783CD40 /* Debug */,
+				CF1880EA20D44BBC2415765039181001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD6278435D0D922C4C737B5D3DC5A716 /* Build configuration list for PBXNativeTarget "Pods-AR_JellyFishUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A31E21F76D07C0FA4F3B35D987914D7D /* Debug */,
+				FE9ED665B3B13F097993DCAA4A498983 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD7BF5B5ADFF2E5464191CBBFB31FBBB /* Build configuration list for PBXNativeTarget "Pods-AR_JellyFish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD59B88E3C8C5FC65979AA41317CA9EE /* Debug */,
+				4D649F1BA15319F659EBA498A3352CEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

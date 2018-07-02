@@ -1,0 +1,60 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/jackwong/TryGitConflict/AR_JellyFish/Build/Products/Debug-iphonesimulator/Each/Each.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Each-Swift.h",
+          'external-contents': "/Users/jackwong/TryGitConflict/AR_JellyFish/Build/Products/Debug-iphonesimulator/Each/Each.framework/Headers/Each-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Each-umbrella.h",
+          'external-contents': "/Users/jackwong/TryGitConflict/AR_JellyFish/Pods/Target Support Files/Each/Each-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/jackwong/TryGitConflict/AR_JellyFish/Build/Products/Debug-iphonesimulator/Each/Each.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/jackwong/TryGitConflict/AR_JellyFish/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Each.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/jackwong/TryGitConflict/AR_JellyFish/Build/Products/Debug-iphonesimulator/Pods_AR_JellyFish.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-AR_JellyFish-umbrella.h",
+          'external-contents': "/Users/jackwong/TryGitConflict/AR_JellyFish/Pods/Target Support Files/Pods-AR_JellyFish/Pods-AR_JellyFish-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_AR_JellyFish-Swift.h",
+          'external-contents': "/Users/jackwong/TryGitConflict/AR_JellyFish/Build/Products/Debug-iphonesimulator/Pods_AR_JellyFish.framework/Headers/Pods_AR_JellyFish-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/jackwong/TryGitConflict/AR_JellyFish/Build/Products/Debug-iphonesimulator/Pods_AR_JellyFish.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/jackwong/TryGitConflict/AR_JellyFish/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Pods-AR_JellyFish.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

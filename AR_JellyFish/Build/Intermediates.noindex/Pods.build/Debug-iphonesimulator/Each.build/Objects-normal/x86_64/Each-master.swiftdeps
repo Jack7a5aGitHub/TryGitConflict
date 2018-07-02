@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "fd8ebf8f5e7bc88c1fd8c32468d06199"
+build_time: [1530507284, 838472000]
+inputs:
+  "/Users/jackwong/TryGitConflict/AR_JellyFish/Pods/Each/Sources/Each.swift": [1529286648, 0]
