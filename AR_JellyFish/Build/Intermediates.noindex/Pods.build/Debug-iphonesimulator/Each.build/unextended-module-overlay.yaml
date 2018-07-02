@@ -3,11 +3,11 @@
   'case-sensitive': 'false',
   'roots': [{
     'type': 'directory',
-    'name': '/Users/jackwong/Desktop/Developer/AR_JellyFish/Build/Products/Debug-iphonesimulator/Each/Each.framework/Modules'
+    'name': '/Users/jackwong/TryGitConflict/AR_JellyFish/Build/Products/Debug-iphonesimulator/Each/Each.framework/Modules'
     'contents': [{
       'type': 'file',
       'name': 'module.modulemap',
-      'external-contents': '/Users/jackwong/Desktop/Developer/AR_JellyFish/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Each.build/unextended-module.modulemap',
+      'external-contents': '/Users/jackwong/TryGitConflict/AR_JellyFish/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Each.build/unextended-module.modulemap',
     }]
   }]
 }
